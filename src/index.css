@@ -7,10 +7,12 @@ body {
 }
 
 @utility bg-grid-pattern {
-  background-size: 20px 20px;
+  background-size: 25px 25px;
   background-image: 
     linear-gradient(to right, rgba(165, 180, 252, 0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(165, 180, 252, 0.08) 1px, transparent 1px);
+
+  background-position: center top !important;
 }
 
 @utility bg-vignette-mask {
@@ -38,8 +40,21 @@ body {
     
   }
 }
-
 .glow-once {
   animation: glowOnce 1.5s ease-in-out forwards;
-  transfrom-origin: center;
+}
+
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.greeting-anim {
+  animation: fadeText 1s ease-in-out forwards;
 }
