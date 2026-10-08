@@ -23,3 +23,23 @@ body {
   --color-bg-mid: #0a081a;
   --color-bg-light: #16103c;
 }
+
+@keyframes glowOnce {
+    0% {
+    transform: translate(-50%, -50%) scale(0.8);
+   
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.4);
+    
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    
+  }
+}
+
+.glow-once {
+  animation: glowOnce 1.5s ease-in-out forwards;
+  transfrom-origin: center;
+}
