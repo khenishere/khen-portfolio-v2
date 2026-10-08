@@ -26,13 +26,13 @@ const [greeting] = useState(() =>{
                </div>
              <img src= {logo} alt="khenishere's logo" className="mx-auto w-35 h-35 object-contain"></img>
         </div>  
-        <p className="text-2xl text-white font-mono mt-4 fadein-anim">{greeting}</p>
-        <p className="text-1xl text-white font-mono mt-1 fadein-anim">//VIDEO EDITOR & DEVELOPER</p>
+        <p className="text-2xl text-white font-mono mt-4 fadeIn-anim">{greeting}</p>
+        <p className="text-1xl text-white font-mono mt-1 fadeIn-anim">//VIDEO EDITOR & DEVELOPER</p>
 
-        <div className="flex flex-row justify-center gap-4 mt-15 fadein-anim z-20">
+        <div className="flex flex-row justify-center gap-4 mt-15 fadeIn-anim z-20">
 
           <button className="px-6 py-2.5 font-mono text-sm text-white border-black border bg-indigo-500/50">[VIEW REELS]</button>
-          <button className="px-6 py-2.5 font-mono text-sm text-white border-black border bg-indigo-500/50">[GET IN TOUCH]</button>
+          <button className="px-6 py-2.5 font-mono text-sm text-white border-black border bg-indigo-500/50">[CONTACT ME]</button>
 
         </div>
 

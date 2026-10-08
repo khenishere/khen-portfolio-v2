@@ -44,7 +44,7 @@ body {
   animation: glowOnce 1.5s ease-in-out forwards;
 }
 
-@keyframes fadeText {
+@keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(4px);
@@ -55,6 +55,6 @@ body {
   }
 }
 
-.greeting-anim {
-  animation: fadeText 1s ease-in-out forwards;
+.fadeIn-anim {
+  animation: fadeIn 1s ease-in-out forwards;
 }
